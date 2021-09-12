@@ -1,0 +1,14 @@
+<header class="modal-header">
+  <h4>{{headLine}}</h4>
+
+  <span (click)="close()">X</span>
+</header>
+<hr/>
+
+<section class="modal-content">
+  <ng-content></ng-content>
+</section>
+
+<footer>
+  <button (click)="submit()">确认</button>
+</footer>

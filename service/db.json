@@ -1,46 +1,11 @@
 {
   "equipments": [
     {
-      "id": "asset:001",
-      "model": "LAMBDA 650 UV/Vis Spectrophotometer",
-      "brand": "LAMBDA",
-      "weight": "76.0 kg",
-      "manufactureDate": "2010-05-12"
-    },
-    {
-      "id": "asset:002",
-      "model": "JANUS® G3 NGS Express Workstation",
-      "brand": "JANUS",
-      "weight": "125.8 kg",
-      "manufactureDate": "2012-11-10"
-    },
-    {
-      "id": "asset:003",
-      "model": "LAMBDA XLS+ with Printer",
-      "brand": "LAMBDA",
-      "weight": "2.0 kg",
-      "manufactureDate": "2008-01-01"
-    },
-    {
-      "id": "asset:004",
-      "model": "Wizard 2-Detector Gamma Counter, 550 samples",
-      "brand": "Wizard",
-      "weight": "55.0 kg",
-      "manufactureDate": "2015-03-10"
-    },
-    {
-      "id": "asset:005",
-      "model": "Quantum GX2 microCT Imaging System",
-      "brand": "Quantum",
-      "weight": "50 kg",
-      "manufactureDate": "2012-12-12"
-    },
-    {
+      "brand": "Claruswww",
       "id": "asset:006",
+      "manufactureDate": "2008-08-28",
       "model": "Biodiesel Glycerin Analysis System 230V",
-      "brand": "Clarus",
-      "weight": "25.8 kg",
-      "manufactureDate": "2008-08-28"
+      "weight": "25.8 kg"
     },
     {
       "id": "asset:007",
@@ -76,6 +41,20 @@
       "brand": "AutoDELFIA",
       "weight": "2 kg",
       "manufactureDate": "2014-04-11"
+    },
+    {
+      "brand": "we",
+      "id": "w",
+      "manufactureDate": "d",
+      "model": "e",
+      "weight": "e"
+    },
+    {
+      "brand": "2",
+      "id": "1",
+      "manufactureDate": "5",
+      "model": "3",
+      "weight": "4"
     }
   ]
 }

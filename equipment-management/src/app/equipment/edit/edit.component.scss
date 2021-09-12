@@ -1,0 +1,11 @@
+.form-group{
+  display: flex;
+  margin: 4px;
+  label{
+    width: 30%;
+  }
+  input{
+    flex: 1;
+    border: 1px solid #000;
+  }
+}

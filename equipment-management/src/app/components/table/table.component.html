@@ -1,0 +1,23 @@
+<table>
+  <thead>
+    <tr>
+      <th *ngFor="let keyItem of dataColumn">
+        {{keyItem.name}}
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let dataItem of dataSource; index as index">
+      <ng-container *ngFor="let keyItem of dataColumn">
+        <td *ngIf="keyItem.filed">
+          {{dataItem[keyItem.filed]}}
+        </td>
+        <td *ngIf="keyItem.template">
+          <ng-template [ngTemplateOutlet]="keyItem.template"
+                       [ngTemplateOutletContext]="{data: dataItem}"></ng-template>
+        </td>
+      </ng-container>
+
+    </tr>
+  </tbody>
+</table>

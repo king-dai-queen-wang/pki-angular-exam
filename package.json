@@ -1,0 +1,11 @@
+{
+  "name": "pki-angular-exam",
+  "version": "1.0.0",
+  "description": "- Setup an Angular, NRGX project   - You are allowed to access Internet for any legal resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

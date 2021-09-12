@@ -1,0 +1,12 @@
+<button (click)="openCreateModal()">新增</button>
+<app-table [dataColumn]="dataColumns" [dataSource]="equipmentService.allList$ | async"></app-table>
+<ng-template #actionTemplate let-data="data" let-column="column">
+  <button (click)="edit(data)"> 编辑 </button>
+  <button (click)="delete(data)"> 删除 </button>
+  <button (click)="detail(data)"> 详情 </button>
+</ng-template>
+<app-edit [editData]="editData$| async"
+          [open] = openEditModal
+          [actionType]="actionType"
+          (closeEmitter)="openEditModal = false; actionType='create'"
+></app-edit>
